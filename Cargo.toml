@@ -9,3 +9,8 @@ edition = "2021"
 [dependencies]
 byteorder = "1"                       # Library for reading/writing numbers in big-endian and little-endian.
 structview = "1"                      # Viewing binary data as high-level data structures, safely.
+
+[dev-dependencies]
+# for mandelbrot
+num = "0.4"
+image = "0.13.0"
