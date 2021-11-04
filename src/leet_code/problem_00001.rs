@@ -1,6 +1,8 @@
+#[allow(dead_code)]
 struct Solution;
 
 impl Solution {
+    #[allow(dead_code)]
     pub fn two_sum(nums: Vec<i32>, target: i32) -> Vec<i32> {
         use std::collections::HashMap;
         let mut map = HashMap::new();

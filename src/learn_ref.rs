@@ -1,14 +1,9 @@
-use std::{borrow::Borrow, rc::Rc};
+use std::rc::Rc;
 
+#[allow(dead_code)]
 struct TreeNode<'a> {
     remain: &'a str,
     parent: Option<Rc<TreeNode<'a>>>,
-}
-
-fn construct_list ()
-{
-    let a = "Hello world".to_string();
-    let node1 = TreeNode { remain: &a[..], parent: None };
 }
 
 
