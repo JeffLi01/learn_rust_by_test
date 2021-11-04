@@ -1,1 +1,1 @@
-pub mod problem_00001;
+pub mod q0001;
